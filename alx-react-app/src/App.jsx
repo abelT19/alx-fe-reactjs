@@ -43,3 +43,18 @@ function App() {
 }
 
 export default App
+
+function App() {
+  return (
+    <div>
+      <UserProfile 
+        name="Alice" 
+        age="25" 
+        bio="Loves hiking and photography" 
+      />
+    </div>
+  );
+}
+
+export default App;
+
