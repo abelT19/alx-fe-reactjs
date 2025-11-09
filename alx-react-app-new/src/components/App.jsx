@@ -33,3 +33,4 @@ function App() {
 }
 
 export default App
+import Counter from './components/Counter';
