@@ -1,3 +1,4 @@
+ ["I love to visit New York, Paris, and Tokyo."]
 function MainContent() {
   return (
     <main style={{ backgroundColor: '#eef', padding: '20px', textAlign: 'center' }}>
@@ -10,3 +11,4 @@ function MainContent() {
 }
 
 export default MainContent;
+
