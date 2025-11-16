@@ -1,5 +1,5 @@
 // File: src/components/EditRecipeForm.jsx
-
+event.preventDefault
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useRecipeStore } from "../recipeStore";
@@ -67,3 +67,4 @@ const EditRecipeForm = () => {
 };
 
 export default EditRecipeForm;
+
