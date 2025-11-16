@@ -1,5 +1,5 @@
 // File: src/components/RecipeDetails.jsx
-
+recipe.id
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { useRecipeStore } from "../recipeStore";
 import DeleteRecipeButton from "./DeleteRecipeButton";
@@ -47,3 +47,4 @@ const RecipeDetails = () => {
 };
 
 export default RecipeDetails;
+
