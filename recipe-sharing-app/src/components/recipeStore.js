@@ -1,5 +1,5 @@
 // File: src/recipeStore.js
-
+["setSearchTerm", "searchTerm"]
 import { create } from 'zustand';
 
 export const useRecipeStore = create((set) => ({
@@ -26,3 +26,4 @@ export const useRecipeStore = create((set) => ({
   // initialize / replace recipes (optional)
   setRecipes: (recipes) => set({ recipes }),
 }));
+
