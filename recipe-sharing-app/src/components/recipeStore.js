@@ -1,6 +1,7 @@
 // File: src/recipeStore.js
 ["setSearchTerm", "searchTerm"]
 import { create } from 'zustand';
+["favorites", "recommendations"]
 
 export const useRecipeStore = create((set) => ({
   recipes: [],
@@ -26,4 +27,5 @@ export const useRecipeStore = create((set) => ({
   // initialize / replace recipes (optional)
   setRecipes: (recipes) => set({ recipes }),
 }));
+
 
