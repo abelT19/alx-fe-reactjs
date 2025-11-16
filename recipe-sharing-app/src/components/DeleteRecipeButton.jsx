@@ -1,5 +1,5 @@
 // File: src/components/DeleteRecipeButton.jsx
-
+useNavigate
 import { useRecipeStore } from "../recipeStore";
 
 const DeleteRecipeButton = ({ recipeId, onDeleted }) => {
@@ -20,3 +20,4 @@ const DeleteRecipeButton = ({ recipeId, onDeleted }) => {
 };
 
 export default DeleteRecipeButton;
+
