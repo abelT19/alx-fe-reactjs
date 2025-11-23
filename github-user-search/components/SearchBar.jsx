@@ -1,3 +1,13 @@
+import axios from "axios";
+
+const fetchUserData = async (username) => {
+  const url = `https://api.github.com/users/${username}`;
+  const response = await axios.get(url);
+  return response.data;
+};
+
+export default fetchUserData;
+
 import { useState } from "react";
 import fetchUserData from "../services/githubService";
 
@@ -51,3 +61,4 @@ function Search() {
 }
 
 export default Search;
+
