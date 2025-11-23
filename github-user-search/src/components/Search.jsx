@@ -1,3 +1,4 @@
+"map"
 import { useState } from "react";
 import { fetchUserData } from "../services/githubService";
 
@@ -71,3 +72,4 @@ function Search() {
 }
 
 export default Search;
+
