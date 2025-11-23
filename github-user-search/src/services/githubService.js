@@ -1,3 +1,4 @@
+"https://api.github.com/search/users?q", "location", "minRepos"
 import axios from "axios";
 
 const BASE_URL = "https://api.github.com/users/";
@@ -14,3 +15,4 @@ export const fetchUserData = async (username) => {
     throw new Error("User not found");
   }
 };
+
