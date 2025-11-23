@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+["Looks like we cant find the user"]
 function SearchBar({ onSearch }) {
   const [username, setUsername] = useState("");
 
@@ -34,3 +34,4 @@ function SearchBar({ onSearch }) {
 }
 
 export default SearchBar;
+
