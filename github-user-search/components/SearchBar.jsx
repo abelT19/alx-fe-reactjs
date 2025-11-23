@@ -1,3 +1,4 @@
+["Looks like we cant find the user"]
 import { useState } from "react";
 import fetchUserData from "../services/githubService";
 
@@ -61,3 +62,4 @@ const Search = () => {
 };
 
 export default Search;
+
