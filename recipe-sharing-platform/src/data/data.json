@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Spaghetti Bolognese",
+    "image": "/assets/spaghetti.jpg",
+    "ingredients": ["Spaghetti", "Onion", "Garlic", "Tomato Sauce", "Beef"],
+    "steps": [
+      "Boil the spaghetti.",
+      "Cook beef with onion and garlic.",
+      "Add tomato sauce.",
+      "Mix with spaghetti and serve."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Pancakes",
+    "image": "/assets/pancakes.jpg",
+    "ingredients": ["Flour", "Milk", "Eggs", "Sugar", "Butter"],
+    "steps": [
+      "Mix ingredients.",
+      "Heat pan.",
+      "Pour batter.",
+      "Flip and serve with honey."
+    ]
+  }
+]
