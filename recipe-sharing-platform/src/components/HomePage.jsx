@@ -1,3 +1,4 @@
+"useState", "useEffect", "data.json"
 import { Link } from "react-router-dom";
 
 const recipes = [
@@ -39,3 +40,4 @@ export default function HomePage() {
     </div>
   );
 }
+
