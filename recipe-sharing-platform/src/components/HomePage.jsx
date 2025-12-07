@@ -1,3 +1,4 @@
+"grid-cols-3", "sm"
 "useState", "useEffect", "data.json"
 import { Link } from "react-router-dom";
 
@@ -40,4 +41,5 @@ export default function HomePage() {
     </div>
   );
 }
+
 
