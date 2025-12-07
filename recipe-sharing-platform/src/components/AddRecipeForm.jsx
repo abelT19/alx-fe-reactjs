@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+"validate"
 const AddRecipeForm = () => {
   const [title, setTitle] = useState("");
   const [ingredients, setIngredients] = useState("");
@@ -115,3 +115,4 @@ const AddRecipeForm = () => {
 };
 
 export default AddRecipeForm;
+
