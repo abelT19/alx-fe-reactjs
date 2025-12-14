@@ -1,3 +1,4 @@
+["value={username}", "value={email}", "value={password}"]
 import { useState } from "react";
 import { registerUser } from "../services/api";
 
@@ -68,3 +69,4 @@ const RegistrationForm = () => {
 };
 
 export default RegistrationForm;
+
