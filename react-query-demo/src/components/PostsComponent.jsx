@@ -14,6 +14,7 @@ const PostsComponent = () => {
     cacheTime: 10000,      // Cached for 10 seconds
   });
 "https://jsonplaceholder.typicode.com/posts"
+  "refetchOnWindowFocus", "keepPreviousData"
   if (isLoading) {
     return <h2>Loading posts...</h2>;
   }
@@ -45,4 +46,5 @@ const PostsComponent = () => {
 };
 
 export default PostsComponent;
+
 
